@@ -60,7 +60,7 @@ docker run -p 8501:8501 fingenius
 The easiest way to deploy this app is using [Streamlit Cloud](https://share.streamlit.io/).
 1. Push this code to your GitHub repository.
 2. Go to [Streamlit Cloud](https://share.streamlit.io/) and click **"New app"**.
-3. Select your repository and the `app.py` file.
+3. Select the repository `FINANCE_MANAGEMENT` and the `app.py` file.
 4. Add your `GOOGLE_API_KEY` in the **Secrets** section.
 
 ### 2. Render
