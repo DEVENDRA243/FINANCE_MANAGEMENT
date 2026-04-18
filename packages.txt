@@ -1,0 +1,4 @@
+build-essential
+software-properties-common
+sqlite3
+libsqlite3-dev
