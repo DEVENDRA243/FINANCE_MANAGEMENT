@@ -9,3 +9,4 @@ plotly
 fpdf
 python-dotenv
 scikit-learn
+pysqlite3-binary

@@ -1,4 +1,13 @@
 import streamlit as st
+
+# ── ChromaDB Fix for Streamlit Cloud ──────────────────────────────────────────
+import sys
+try:
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
